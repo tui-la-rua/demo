@@ -9,7 +9,7 @@ app.get('/trangchu', (req, res) => {
 app.get('/nodejs', (req, res) => {
   res.send('Hello nodejs')
 })
-app.get('/', (req, res) => {
+app.get('/rua', (req, res) => {
   res.send('Hello Rùa')
 })
 const port = 3000
