@@ -3,7 +3,7 @@ const morgan = require('morgan')
 const app = express()
 
 app.use(morgan('combined'))
-app.get('/', (req, res) => {
+app.get('/trangchu', (req, res) => {
   res.send('Hello World!')
 })
 
