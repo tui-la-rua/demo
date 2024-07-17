@@ -1,0 +1,32 @@
+{
+  "name": "demo_nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tui-la-rua/demo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "demo",
+    "js"
+  ],
+  "author": "trong nam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tui-la-rua/demo/issues"
+  },
+  "homepage": "https://github.com/tui-la-rua/demo#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
