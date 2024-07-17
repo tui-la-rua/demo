@@ -6,6 +6,9 @@ app.use(morgan('combined'))
 app.get('/trangchu', (req, res) => {
   res.send('Hello World!')
 })
+app.get('/nodejs', (req, res) => {
+  res.send('Hello nodejs')
+})
 
 const port = 3000
 app.listen(port, ()=>{
